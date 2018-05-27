@@ -1,0 +1,57 @@
+#signature {
+    margin-top: 40px;
+    font-size: 15px;
+    float: right;
+    font-family: "Georgia", serif;
+}
+
+#phrase_text {
+    margin: auto:
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    word-spacing: 2px;
+    font-size: 24px;
+}
+
+* {
+    padding: 0;
+    border: 0;
+}
+
+.header-title {
+    width: 100%;
+    font: 300 100px/1.3 'Oleo Script', Helvetica, sans-serif;
+    color: Orchid   ;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 3px;
+    font-size: 70px;
+}
+
+.wrapper, .header {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    height: 700px;
+    background-image: url('../img/elephant.png');
+}
+
+.header {
+    font-size: 10px;
+    text-align: center;
+    background: LightCyan ;
+    height: 130px;
+}
+
+.quote_block {
+    width: 430px;
+    height: 120px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 60px;
+    margin-top: 70px;
+}
