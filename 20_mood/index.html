@@ -47,8 +47,8 @@
           var random_index = Math.floor(Math.random()*quotes.length);
           var quote = quotes[random_index].phrase;
           var signature = quotes[random_index].signature;
-          $("#phrase_text").text(quote);
-          $("#signature").text(signature);
+          $(".phrase_text").text(quote);
+          $(".signature").text(signature);
         };
 
         $(document).ready(setQuote);
@@ -61,8 +61,8 @@
     </div>
     <div class="wrapper">
         <div class="quote_block">
-            <span id="phrase_text"></span>
-            <span id="signature"></span>
+            <span class="phrase_text"></span>
+            <span class="signature"></span>
         </div>
     </div>
 </body>
